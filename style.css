@@ -1,110 +1,88 @@
-
 .primary {
-	background-color: #2F3D52;
+    background-color: #2F3D52;
 }
-
 .secondary {
-	background-color: #00C79E;
+    background-color: #00C79E;
 }
-
 .text-primary {
-	color: #78818E;
+    color: #78818E;
 }
-
 .text-secondary {
-	color: #D4D4D4;
+    color: #D4D4D4;
 }
-
 .text-decoration {
-	color: #EBEFF1;
+    color: #EBEFF1;
 }
-
 .title {
-	font-family: 'Titillium Web', sans-serif;	
+    font-family: 'Titillium Web', sans-serif;
 }
-
 h1 {
-	font-family: 'Titillium Web', sans-serif;
-	font-size: 5em;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 5em;
   margin: 0;
   padding: 0;
 }
-
 h2 {
-	font-family: 'Titillium Web', sans-serif;
-	font-size: 4.2em;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 4.2em;
   margin: 0;
   padding: 0;
 }
-
 h3 {
-	font-family: 'Titillium Web', sans-serif;
-	font-size: 3.5em;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 3.5em;
   margin: 0;
   padding: 0;
 }
-
 h4 {
-	font-family: 'Titillium Web', sans-serif;
-	font-size: 2.9em;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 2.9em;
   margin: 0;
   padding: 0;
 }
-
 h5 {
-	font-family: 'Titillium Web', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
   font-size: 2.5em;
   margin: 0;
   padding: 0;
 }
-
 h6 {
-	font-family: 'Titillium Web', sans-serif;
-	font-size: 1.8em;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1.8em;
   margin: 0;
   padding: 0;
 }
-
-
 body {
 font-family: 'Open Sans', sans-serif;
 }
-
 .navbar {
-	background-color: #2F3D52;
-	color: white;
-	margin: -10px;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	height: 80px;
-	padding: 20px;
-	font-size: 20px;
-	}
-
+    background-color: #2F3D52;
+    color: white;
+    margin: -10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 20px;
+    font-size: 20px;
+    }
 .navbar a {
-	color: white;
-	text-decoration: none;
-	margin: 10px;
+    color: white;
+    text-decoration: none;
+    margin: 10px;
 }
-
 .lien-navbar {
-	display: flex;
+    display: flex;
 }
-
-
 .form-control {
-	width: 200px;
-	height: 20px;
-	border-radius: 8px;
+    width: 200px;
+    height: 20px;
+    border-radius: 8px;
 }
-
 ul {
-	display: flex;
+    display: flex;
 }
-
 /* BOUTONS */
-
 .btn-primary {
   background-color: #2F3D52;
   border-radius: 20px;
@@ -115,13 +93,10 @@ ul {
   display: inline-block;
   font-size: 16px;
   cursor: pointer;
-
 }
-
 .btn-primary:hover {
-	background-color: #2F3D52
+    background-color: #2F3D52
 }
-
 .btn-warning {
   background-color: #FCA000;
   border-radius: 20px;
@@ -133,11 +108,9 @@ ul {
   font-size: 16px;
   cursor: pointer;
 }
-
 .btn-warning:hover{
-	background-color: #FCA000
+    background-color: #FCA000
 }
-
 .btn-danger {
   background-color: #F82A29;
   border-radius: 20px;
@@ -149,11 +122,9 @@ ul {
   font-size: 16px;
   cursor: pointer;
 }
-
 .btn-danger:hover {
-	background-color: #F82A29
+    background-color: #F82A29
 }
-
 .btn-info {
   background-color: #2F87DC;
   border-radius: 20px;
@@ -165,11 +136,9 @@ ul {
   font-size: 16px;
   cursor: pointer;
 }
-
 .btn-info:hover{
-	background-color: #2F87DC
+    background-color: #2F87DC
 }
-
 .btn-success {
   background-color: #00C79E;
   border-radius: 20px;
@@ -181,13 +150,10 @@ ul {
   font-size: 16px;
   cursor: pointer;
 }
-
 .btn-success:hover {
-	background-color: #00C79E
+    background-color: #00C79E
 }
-
 /* BOUTONS OUTLINE */
-
 .btn-outline-primary {
   border-radius: 20px;
   border: solid #2F3D52 1px;
@@ -198,14 +164,11 @@ ul {
   display: inline-block;
   font-size: 16px;
   cursor: pointer;
-
 }
-
 .btn-outline-primary:hover {
-	background-color: #2F3D52;
-	color: white; 
+    background-color: #2F3D52;
+    color: white;
 }
-
 .btn-outline-warning {
   border-radius: 20px;
   border: 1px solid #FCA000;
@@ -216,14 +179,11 @@ ul {
   display: inline-block;
   font-size: 16px;
   cursor: pointer;
-
 }
-
 .btn-outline-warning:hover {
-	background-color: #E18650;
-	color: white;
+    background-color: #E18650;
+    color: white;
 }
-
 .btn-outline-danger {
   background-color: white;
   border-radius: 20px;
@@ -234,14 +194,11 @@ ul {
   display: inline-block;
   font-size: 16px;
   cursor: pointer;
-
 }
-
 .btn-outline-danger:hover {
-	background-color: #C04646;
-	color: white;
+    background-color: #C04646;
+    color: white;
 }
-
 .btn-outline-info {
   background-color: white;
   border-radius: 20px;
@@ -252,14 +209,11 @@ ul {
   display: inline-block;
   font-size: 16px;
   cursor: pointer;
-
 }
-
 .btn-outline-info:hover {
-	background-color: #2F87DC;
-	color: white;
+    background-color: #2F87DC;
+    color: white;
 }
-
 .btn-outline-success {
   background-color: white;
   border-radius: 20px;
@@ -270,56 +224,74 @@ ul {
   display: inline-block;
   font-size: 16px;
   cursor: pointer;
-
 }
-
 .btn-outline-success:hover {
-	background-color: #00C79E;
-	color: white;
+    background-color: #00C79E;
+    color: white;
 }
-
 .btn-sm {
-	font-size: 13px;
-	padding: 8px 18px;
+    font-size: 13px;
+    padding: 8px 18px;
 }
-
 .btn-lg {
-	font-size: 23px;
+    font-size: 23px;
 }
-
-.body-footer{ 
-	background-color: red;
-	position: absolute;
-	bottom: 0%;
-	right: 0%;
-	left: 0%
+/* FOOTER */
+.body-footer{
+    background-color: red;
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    left: 0%
 }
-
 footer {
-	background-color: #D4D4D4;
-	display: flex;
-	justify-content: space-around;
-
-
+    background-color: #D4D4D4;
+    display: flex;
+    justify-content: space-around;
 }
-
 .pays {
-	text-align: right;
+    text-align: right;
 }
-
 footer p {
-	text-align: center;
-
+    text-align: center;
 }
- 
+
  footer a {
- 	color: black;
- 	text-decoration: none;
-/* 	padding-right: 10px;
+    color: black;
+    text-decoration: none;
+/*  padding-right: 10px;
 */ }
-
 footer a:hover {
-	color: #2F87DC;
-	text-decoration: under;
+    color: #2F87DC;
+    text-decoration: under;
 }
 
+/* FORMS */
+.form-login {
+  text-align: center;
+  width: 400px;
+}
+.input {
+  width: 250px;
+  height: 20px;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+#country {
+    width: 25em;
+    font-size: 16px;
+}
+.radio {
+    text-align: center;
+    font-size: 16px;
+}
+.formulaires {
+    display: flex;
+		flex-direction: column;
+    align-items: center;
+}
