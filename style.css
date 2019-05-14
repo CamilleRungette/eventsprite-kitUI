@@ -59,7 +59,12 @@ body h6 {
 
 body {
   font-family: 'Open Sans', sans-serif;
-  font-size: 19px;
+
+}
+
+button a {
+  color: white;
+  text-decoration: none;
 }
 
 .navbar {
@@ -239,10 +244,11 @@ ul {
 .btn-sm {
     font-size: 13px;
     padding: 8px 18px;
-    border-radius: 4px;
+    border-radius: 20px;
 }
 .btn-lg {
     font-size: 23px;
+    border-radius: 20px;
 }
 /* FOOTER */
 .body-footer{
@@ -308,6 +314,7 @@ footer a:hover {
  /* CARDS */
 .photo {
   width: 319px;
+  border-radius: 8px;
 }
 
 .card-body {
@@ -317,16 +324,18 @@ margin-left: 100px;
 .card1 {
   text-align: center;
   width: 319px;
-  height: 450px;
+  height: 460px;
   background-color: white;
   font-size: 16px;
   border: 1px solid #EBEFF1;
+  border-radius: 8px;
 }
 
 .card2 {
   width: 950px;
   border: 1px solid #EBEFF1;
   padding: auto;
+  margin: auto;
 }
 
 
@@ -337,14 +346,26 @@ margin-left: 100px;
 
 .card3 {
   width: 319px;
-  height: 400px;
+  height: 450px;
   border: 1px solid #EBEFF1;
 }
 
-.photo3 {
-  width: 319px;
-}
 
 .card3 .card-body {
   margin-left: 10px;
+}
+
+.event-card {
+  display: flex;
+  justify-content: space-around;
+}
+
+.city-card {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card-pres {
+  display: flex;
+  justify-content: space-around;
 }
