@@ -66,6 +66,22 @@ button a {
   text-decoration: none;
 }
 
+/*PRESENTATION */
+
+section {
+  margin: 200px;
+}
+
+/* NAVBARS */
+
+.lien-navbar {
+    display: flex;
+}
+.form-control {
+    width: 200px;
+    height: 20px;
+    border-radius: 8px;
+}
 .navbar {
     background-color: #2F3D52;
     color: white;
@@ -82,14 +98,66 @@ button a {
     text-decoration: none;
     margin: 10px;
 }
-.lien-navbar {
+.navbar1 {
+    background-color: #2F3D52;
+    color: white;
+    width: 1000px; 
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 20px;
+    font-size: 20px;
+    }
+.navbar1 a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
 }
-.form-control {
-    width: 200px;
-    height: 20px;
-    border-radius: 8px;
+
+.navbar2 {
+    background-color: #00C79E;
+    color: white;
+    width: 1000px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 20px;
+    font-size: 20px;
+    }
+
+.navbar2 a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
 }
+
+.navbar3 {
+    background-color: #78818E;
+    color: white;
+    width: 1000px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 20px;
+    font-size: 20px;
+    }
+.navbar3 a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.navbars {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  padding: 200px;
+}
+
+
 ul {
     display: flex;
 }
@@ -276,6 +344,16 @@ ul {
 
 }
 
+.banner-photo {
+  background-image: url(images/baniere.jpg);
+  width: 700px;
+  height: 250px;
+  color: white;
+  font-size: 2.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 
 /* FOOTER */
@@ -355,8 +433,9 @@ margin-left: 100px;
   height: 460px;
   background-color: white;
   font-size: 16px;
-  border: 1px solid #EBEFF1;
+  border: 0px solid #EBEFF1;
   border-radius: 8px;
+  box-shadow: 10px 10px 18px 6px rgba(224,224,224,1);
 }
 
 .card2 {
@@ -455,3 +534,28 @@ margin-left: 100px;
   margin-left: 10px;
   color: #00C79E;
 }
+
+
+
+/* CARTE EN PAYSAGE */
+
+.side-card {
+  height: 300px;
+  width: 900px;
+  margin: 20px;
+  display: flex;
+}
+
+.photo-side {
+  width: 450px;
+}
+
+.side-text {
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
