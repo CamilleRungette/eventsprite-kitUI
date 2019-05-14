@@ -69,7 +69,7 @@ button a {
 /*PRESENTATION */
 
 section {
-  margin: 200px;
+  margin: 230px;
 }
 
 /* NAVBARS */
@@ -101,11 +101,11 @@ section {
 .navbar1 {
     background-color: #2F3D52;
     color: white;
-    width: 1000px; 
+    width: 1200px; 
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 80px;
+    height: 70px;
     padding: 20px;
     font-size: 20px;
     }
@@ -118,11 +118,11 @@ section {
 .navbar2 {
     background-color: #00C79E;
     color: white;
-    width: 1000px; 
+    width: 1200px; 
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 80px;
+    height: 70px;
     padding: 20px;
     font-size: 20px;
     }
@@ -136,11 +136,11 @@ section {
 .navbar3 {
     background-color: #78818E;
     color: white;
-    width: 1000px; 
+    width: 1200px; 
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 80px;
+    height: 70px;
     padding: 20px;
     font-size: 20px;
     }
@@ -150,11 +150,15 @@ section {
     margin: 10px;
 }
 
+.title-navbar {
+  text-align: center;
+}
+
 .navbars {
   display: flex;
   flex-direction: column;
   align-items: center; 
-  padding: 200px;
+  padding: 60px;
 }
 
 
@@ -309,15 +313,16 @@ ul {
     color: white;
 }
 .btn-sm {
+    display: inline-block;
     font-size: 13px;
     padding: 8px 18px;
     border-radius: 20px;
 }
 .btn-lg {
     font-size: 23px;
-    border-radius: 20px;
+    border: 1px solid red;
+    border-radius: 50px;
 }
-
 
 /* BANNIERE */
 
@@ -358,12 +363,12 @@ ul {
 
 /* FOOTER */
 .body-footer{
-    background-color: red;
     position: absolute;
-    bottom: 0%;
+    bottom: -5%;
     right: 0%;
     left: 0%
 }
+
 footer {
     background-color: #D4D4D4;
     display: flex;
@@ -410,10 +415,17 @@ footer a:hover {
     text-align: center;
     font-size: 16px;
 }
-.formulaires {
-    display: flex;
-		flex-direction: column;
-    align-items: center;
+
+.forms1 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.forms2 {
+  display: flex;
+  justify-content: space-around;
+  margin-right: 80px;
+  margin-left: 80px;
 }
 
 
@@ -439,7 +451,7 @@ margin-left: 100px;
 }
 
 .card2 {
-  width: 950px;
+  width: 850px;
   border: 1px solid #EBEFF1;
   padding: auto;
   margin: auto;
@@ -447,7 +459,7 @@ margin-left: 100px;
 
 
 .photo2 {
-  width: 900px;
+  width: 830px;
   margin-left: 20px;
 }
 
@@ -491,7 +503,7 @@ margin-left: 100px;
 .comment-section {
     height: 900px;
     width: 700px;
-    margin: 80px;
+    margin: auto;
 }
 
 .comment-form {
@@ -508,6 +520,10 @@ margin-left: 100px;
 
 .comment-text {
   margin-left: 60px;
+}
+
+.list-group-item{
+  font-size: 20px;
 }
 
 .list-group-item:hover {
@@ -540,14 +556,14 @@ margin-left: 100px;
 /* CARTE EN PAYSAGE */
 
 .side-card {
-  height: 300px;
-  width: 900px;
-  margin: 20px;
+  height: 400px;
+  width: 1050px;
+  margin: auto;
   display: flex;
 }
 
 .photo-side {
-  width: 450px;
+  width: 500px;
 }
 
 .side-text {
@@ -559,3 +575,11 @@ margin-left: 100px;
   align-items: center;
 }
 
+
+.index-comment {
+  text-align: center;
+}
+
+.index-comment img {
+  margin-left: 50px;
+}

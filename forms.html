@@ -10,90 +10,104 @@
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Titillium+Web" rel="stylesheet">
 </head>
 <body>
+        <nav class="navbar">
+    <div class="lien-navbar">
+      <a class="navbar-brand" href="index.html">EVENTSPRITE</a>
+      <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</a>
+      <a class="nav-link" href="#">Create an event</a>
+      <a class="nav-link" href="#">Team</a>
+      <a class="nav-link" href="#">About</a>
+    </div>
 
-<p>Forms</p>
-    <div class="formulaires">
-    <form action="" method="get" class="form-login">
-        <h5>Sign in</h5><br/>
-        <div>
-            <label>Email</label><br/>
-            <input type="email" name="name" id="name" class="input" required>
-        </div>
-        <br/>
-        <div>
-            <label>Password</label><br/>
-            <input type="password" name="email" id="email" class="input" required>
-        </div>
-        <br/>
-        <div>
+    <form id="searchbar" class="form-inline my-2 my-lg-0 ">
+      <input class="form-control mr-sm-2" type="text" placeholder="Search">
+    </form>
+</nav>
+
+
+<h1 class="title-navbar">Forms</h1>
+
+<div class="forms1">
+
+        <form action="" method="get" class="form-login">
+            <h5>Sign in</h5><br/>
+            <div>
+                <label>Email</label><br/>
+                <input type="email" name="name" id="name" class="input" required>
+            </div><br/>
+            <div>
+                <label>Password</label><br/>
+                <input type="password" name="email" id="email" class="input" required>
+            </div><br/>
             <button class="text btn-primary btn-sm" href="#" type="submit">Login</button>
-        </div>
-    </form><br>
-    <form action="" method="get" class="form-login">
-        <h5>Password forgotten?</h5><br/>
-        <div>
+        </form>
+
+        <form action="" method="get" class="form-login">
+            <h5>Password forgotten?</h5><br/>
             <label>Email</label><br/>
-            <input type="email" name="name" id="name" class="input" required>
-        </div>
-        <br/>
-        <div>
+            <input type="email" name="name" id="name" class="input" required><br/>
             <button class="text btn-primary btn-sm" href="#" type="submit">Login</button>
-        </div>
-    </form><br>
+        </form>
+
+</div>
+
+<br/> <br/> <br/> <br/> <br/>
+
+<div class="forms2">
     <form action="" method="get" class="form-login">
         <h5>Change your password</h5><br/>
-        <div>
-            <label>Current password</label><br/>
-            <input type="email" name="name" id="name" class="input" required>
-        </div>
-        <div>
-            <label>New password</label><br/>
-            <input type="email" name="name" id="name" class="input" required>
-        </div>
-        <div>
-            <label>New password confirmation</label><br/>
-            <input type="email" name="name" id="name" class="input" required>
-        </div>
-        <br/>
-        <div>
-            <button class="text btn-primary btn-sm" href="#" type="submit">Login</button>
-        </div>
+            <div>
+                <label>Current password</label><br/>
+                <input type="email" name="name" id="name" class="input" required>
+            </div>
+            <div>
+                <label>New password</label><br/>
+                <input type="email" name="name" id="name" class="input" required>
+            </div>
+            <div>
+                <label>New password confirmation</label><br/>
+                <input type="email" name="name" id="name" class="input" required>
+            </div>
+            <br/>
+            <div>
+                <button class="text btn-primary btn-sm" href="#" type="submit">Login</button>
+            </div>
     </form><br>
-    <!-- $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$-->
+
     <form action="" method="get" class="form-login">
         <h5>Sign up</h5><br/>
-        <div>
-            <label>Email</label><br/>
-            <input type="email" name="name" id="name" class="input" placeholder="Email" required>
-        </div>
+            <div>
+                <label>Email</label><br/>
+                <input type="email" name="name" id="name" class="input" placeholder="Email" required>
+            </div>
+            <br/>
+            <div>
+                <label>Password</label><br/>
+                <input type="password" name="email" id="email" class="input" placeholder="Password" required>
+            </div>
+            <br>
+            <div>
+                <label>Address</label><br/>
+                <input type="city" name="email" id="email" class="input" placeholder="Address" required>
+            </div>
+            <br/>
+            <div>
+                <label>City</label><br/>
+                <input type="city" name="email" id="email" class="input" placeholder="City" required>
+            </div>
+            <br/>
+            <div>
+                <label>Description</label><br/>
+                <textarea id="description" name="description" class="input">
+                </textarea>
+            </div>
         <br/>
-        <div>
-            <label>Password</label><br/>
-            <input type="password" name="email" id="email" class="input" placeholder="Password" required>
-        </div>
-        <br>
-        <div>
-            <label>Address</label><br/>
-            <input type="city" name="email" id="email" class="input" placeholder="Address" required>
-        </div>
-        <br/>
-        <div>
-            <label>City</label><br/>
-            <input type="city" name="email" id="email" class="input" placeholder="City" required>
-        </div>
-        <br/>
-        <div>
-            <label>Description</label><br/>
-            <textarea id="description" name="description" class="input">
-            </textarea>
-        </div>
-        <br/>
-        <label for="country">Country</label><br/>
-        <select id="country" name="country">
-            <option value="france">France</option>
-            <option value="germany">Germany</option>
-            <option value="usa">USA</option>
-        </select>
+            <label for="country">Country</label><br/>
+            <select id="country" name="country">
+                <option value="france">France</option>
+                <option value="germany">Germany</option>
+                <option value="usa">USA</option>
+            </select>
 <br/> <br>
         <div class="radio">
         <p>Please select your gender:</p>
@@ -106,6 +120,7 @@
             <button class="text btn-primary btn-sm" href="#" type="submit">Sign up</button>
         </div>
     </form>
+</div>
     <br/><br>
 
 </div>
