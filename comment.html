@@ -14,22 +14,39 @@
 </head>
 <body>
 	<div class="comment-section">
+		<h2 class="comment-title">Paris Ruby Workshop</h2> <br/>
 		<img src="images/comment.jpeg" alt="Image de code" class="photo-comment"> <br/> <br/>
-	<ul class="liste-cours">
-		<li class="cours" href="#">Cours n°1 <br/> <br/>
-		Voilà la description; on va voir pleins de choses ça va être vraiment génial venez nombreux</li>
-		<li class="cours" href="#">Cours n°2 <br/> <br/>
-		Voilà la description; on va voir pleins de choses ça va être vraiment génial venez nombreux</li>
-		<li	cours="cours" href="#">Cours n°3 <br/> <br/>
-		Voilà la description; on va voir pleins de choses ça va être vraiment génial venez nombreux</li>
 
-	</ul> 
+		<ul class="list-group">
+		  <li class="list-group-item">
+		    <div class="pres">
+		  		<img class="rond" src="images/lucien.jpeg"> 
+		    <strong class="comment-name">Lucien Passera</strong>
+		</div>
+		    <p class="comment-text">Je serai là, comme d'hab !</p>
+		  </li>
+		  <li class="list-group-item">
+		  	<div class="pres">
+		  		<img class="rond" src="images/ryan.jpeg"> 
+		    <strong class="comment-name">Ryan Zidago</strong>
+		</div>
+		    <p class="comment-text">J'ai pas assez mangé</p>
+		  </li>
+		  <li class="list-group-item">
+		    <div class="pres">
+		  		<img class="rond" src="images/camille.jpeg"> 
+		    <strong class="comment-name">Camille Rungette</strong>
+		</div>
+		    <p class="comment-text">Super  programme, je reviens avec plaisir !</p>
+		</ul>
+		<br/>
 
-		<form action="index.html" method="post">
+		<form class="comment-form" action="index.html" method="post">
 		<textarea class="comment" name="name" rows="8" cols="80">Comment here</textarea>
 		<br>
-		<input class="btn-success" type="submit" name="submit" value="Send">
+		<div class="comment-btn"><button class="btn-success">Send</button> </div>
 		</form>
 	</div>
+	<br/> <br/> <br/>
 </body>
 </html>
