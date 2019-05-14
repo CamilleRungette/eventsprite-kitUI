@@ -1,0 +1,53 @@
+
+.primary {
+	background-color: #2F3D52;
+}
+
+.secondary {
+	background-color: #00C79E;
+}
+
+.text-primary {
+	color: #78818E;
+}
+
+.text-secondary {
+	color: #B7C3C4;
+}
+
+.text-decoration {
+	color: #EBEFF1;
+}
+
+.title {
+	font-family: 'Titillium Web', sans-serif;	
+}
+
+body {
+font-family: 'Open Sans', sans-serif;
+}
+
+.navbar {
+	background-color: #2F3D52;
+	color: white;
+	margin: -10px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.navbar a {
+	color: white;
+	text-decoration: none;
+}
+
+.lien-navbar {
+	display: flex;
+}
+
+#searchbar {
+	text-align: right;
+}
+
+ul {
+	display: flex;
+}
