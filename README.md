@@ -1,3 +1,5 @@
 ## EventSprite kitUI - The Hacking Project, Semaine 7
 
-Création d'une kit-UI complet; travailler come pour une présentaiton clients en créant des modules réutilisable tout au long du développement d'une app web
+Development of a complete UI-kit just like you would present to a client. Creation of components that you can use during the development of a web application
+
+##### To check them; open the files in a navigator
